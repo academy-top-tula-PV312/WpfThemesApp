@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="TextBox">
+        <Setter Property="ContentControl.FontFamily" Value="Calibri"/>
+        <Setter Property="ContentControl.Background" Value="LightPink"/>
+        <Setter Property="ContentControl.Foreground" Value="DarkRed"/>
+        <Setter Property="ContentControl.BorderBrush" Value="DarkRed"/>
+        <Setter Property="ContentControl.BorderThickness" Value="3"/>
+        <Setter Property="ContentControl.Margin" Value="10"/>
+        <Setter Property="ContentControl.Padding" Value="5"/>
+        <Setter Property="ContentControl.Width" Value="200"/>
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="ContentControl.FontFamily" Value="Calibri"/>
+        <Setter Property="ContentControl.Background" Value="DarkRed"/>
+        <Setter Property="ContentControl.Foreground" Value="LightPink"/>
+        <Setter Property="ContentControl.BorderBrush" Value="LightPink"/>
+        <Setter Property="ContentControl.BorderThickness" Value="3"/>
+        <Setter Property="ContentControl.Margin" Value="10"/>
+        <Setter Property="ContentControl.Padding" Value="5"/>
+        <Setter Property="ContentControl.Width" Value="200"/>
+    </Style>
+    <Style TargetType="Window" x:Key="windowStyle">
+        <Setter Property="Background" Value="DarkRed"/>
+    </Style>
+</ResourceDictionary>
